@@ -19,7 +19,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 Route::group([
     'middleware' => 'api',
-    'namespace' => 'Api'
+    'namespace' => 'API'
 ], function () {
 
     Route::group([
